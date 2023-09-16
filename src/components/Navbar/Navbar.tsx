@@ -2,26 +2,10 @@ import "./NavbarStyle.css";
 import Logo from "../../assets/images/logo.svg";
 import OpenMenuIcon from "../../assets/images/icon-menu.svg";
 import CloseMenuIcon from "../../assets/images/icon-menu-close.svg";
-import { useLayoutEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Navbar() {
-  const [isActive, setisActive] = useState(true);
-  const [size, setSize] = useState([0, 0]);
-
-  useLayoutEffect(() => {
-    const updateSize = () => {
-      setSize([window.innerWidth]);
-      if (size[0] >= 768) {
-        setisActive(true);
-      } else {
-        setisActive(false);
-      }
-    };
-
-    window.addEventListener("resize", updateSize);
-    updateSize();
-    return () => window.removeEventListener("resize", updateSize);
-  }, []);
+  const [isActive, setisActive] = useState(false);
 
   const changeActive = () => {
     setisActive(!isActive);
