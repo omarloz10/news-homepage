@@ -1,0 +1,17 @@
+.aside__news {
+  height: 560px;
+  margin-top: 36px;
+  background-color: var(--VeryDarkBlue);
+
+  .aside__news-title {
+    padding: 20px;
+    color: var(--SoftOrange);
+    font-size: 24px;
+    font-weight: 800;
+  }
+
+  .aside__news-new:last-child {
+    border: none;
+  }
+}
+

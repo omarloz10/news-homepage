@@ -1,0 +1,40 @@
+.principal__new {
+  .principal__new-image {
+    .principal__new-image-img {
+      width: 100%;
+    }
+  }
+
+  .principal__new-title {
+    margin: 24px 0;
+    color: var(--VeryDarkBlue);
+    line-height: 52px;
+    font-size: 35px;
+    font-weight: 800;
+  }
+
+  .principal__new-text {
+    color: var(--DarkGrayishBlue);
+    font-size: var(--fontParagraph);
+    line-height: 24px;
+  }
+
+  .principal__new-button {
+    width: 60%;
+    margin-top: 24px;
+    border: none;
+    padding: 18px;
+    color: var(--OffWhite);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 800;
+    background-color: var(--SoftRed);
+  }
+
+  .principal__new-button:hover {
+    border: none;
+    cursor: pointer;
+    background-color: var(--VeryDarkBlue);
+  }
+}
+

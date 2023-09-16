@@ -1,0 +1,28 @@
+@import url(../src/assets/css/mediaQueries.css);
+
+:root {
+  --SoftOrange: hsl(35, 77%, 62%);
+  --SoftRed: hsl(5, 85%, 63%);
+  --OffWhite: hsl(36, 100%, 99%);
+  --GrayishBlue: hsl(233, 8%, 79%);
+  --DarkGrayishBlue: hsl(236, 13%, 42%);
+  --VeryDarkBlue: hsl(240, 100%, 5%);
+  --fontParagraph: 15px;
+  --font: "Inter", "sans-serif";
+  /* 400 700 800 */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font);
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--OffWhite);
+}
+
+.main {
+  margin: 16px;
+}

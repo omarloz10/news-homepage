@@ -1,0 +1,19 @@
+.aside__news-new {
+  margin: 50px 20px;
+  height: 100px;
+  color: var(--OffWhite);
+  border-bottom: 2px solid var(--DarkGrayishBlue);
+
+  .aside__news-new-title {
+    margin-bottom: 20px;
+  }
+  .aside__news-new-title h3:hover {
+    color: var(--SoftOrange);
+    cursor: pointer;
+  }
+
+  .aside__news-new-text {
+    color: var(--GrayishBlue);
+    font-size: var(--fontParagraph);
+  }
+}

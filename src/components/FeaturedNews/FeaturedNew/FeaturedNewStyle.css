@@ -1,0 +1,37 @@
+.featured__new {
+  display: flex;
+  margin-bottom: 32px;
+  height: 130px;
+
+  .featured__new-img img {
+    width: 90px;
+    height: 130px;
+  }
+
+  .featured__new-body {
+    .featured__new-body-id {
+      margin-left: 16px;
+      margin-bottom: 12px;
+      font-size: 35px;
+      font-weight: bold;
+      color: var(--GrayishBlue);
+    }
+
+    .featured__new-body-title {
+      margin-left: 16px;
+      margin-bottom: 8px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .featured__new-body-title:hover {
+      color: var(--SoftOrange);
+      cursor: pointer;
+    }
+
+    .featured__new-body-text {
+      margin-left: 16px;
+      font-size: var(--fontParagraph);
+      color: var(--DarkGrayishBlu3);
+    }
+  }
+}
